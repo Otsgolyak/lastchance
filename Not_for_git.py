@@ -130,9 +130,35 @@
 ##########################################################################################
 #######     #########       Списки  video 8         ######################################
 ##########################################################################################
-
+'''
 test = [1,3,5,7,9]
 if 3 in test:
     print('3')
 if 4 not in test:
     print('В списке нет четных чисел')
+'''
+####################################################################################################
+#import math
+ 
+ 
+#def calc_interception(x1, y1, r1, x2, y2, r2):
+ #   cen_dist = math.sqrt((x1-x2)**2 + (y1-y2)**2)
+#    if not cen_dist:
+ #       return "Нет" if r1 != r2 else "Да"
+#    else:
+ #       return "Нет" if cen_dist > r1 + r2 else "Да"
+ 
+#data = []
+#while True:
+#    line = input()
+#    if not line:
+#        break
+ #   data.append(float(line))
+ 
+#print(calc_interception(*data))
+
+
+
+
+words = list(range(a-z))
+print(words)

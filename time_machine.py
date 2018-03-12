@@ -6,4 +6,4 @@
 #print(american_date)
 american_date = '05.17.2018'
 needed_date = american_date.split('.')
-print ("Дата: ", needed_date[1]+'.'+needed_date[0]+'.'+needed_date[2])
+print ("Дата: ", needed_date[1] + '.'+needed_date[0] + '.' + needed_date[2])
