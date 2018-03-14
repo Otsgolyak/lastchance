@@ -8,8 +8,8 @@ r_2 = int(input("Введите координату r_2: "))
 def circles (x_1,y_1,r_1,x_2,y_2,r_2):
     distance = math.sqrt((x_1 - x_2) **2 + (y_1 - y_2) **2)
     sum_of_radiuses = r_1 + r_2
-    sum_of_radiuses_2 = abs(r_1 - r_2)
-    if distance == sum_of_radiuses or distance == sum_of_radiuses_2 or distance > sum_of_radiuses_2 and distance < sum_of_radiuses and distance != 0: 
+    difference_of_radiuses_2 = abs(r_1 - r_2)
+    if distance == sum_of_radiuses or distance == difference_of_radiuses_2 or distance > difference_of_radiuses_2 and distance < sum_of_radiuses and distance != 0: 
         return True
     else:
         return False 
