@@ -1,17 +1,17 @@
 import math
-def quad (a, b, c):
-    D = b**2 - 4 * a * c
-    if D > 0:
-        x1 = ( (-b) + math.sqrt(D)) / (2 * a)
-        x2 = ( (-b) - math.sqrt(D)) / (2 * a)
-        return x1, x2
-    elif D == 0:
-        x1 = (-b) / (2 * a)
-        x2 = None
-        return x1, x2 
-    elif D < 0:
-        x1 = None
-        x2 = None
-        return x1, x2
-res = quad (5, 7, 9)
+def quadratic_equation (a, b, c):
+    discriminant = b**2 - 4 * a * c
+    if discriminant > 0:
+        x_1 = ( (-b) + math.sqrt(discriminant)) / (2 * a)
+        x_2 = ( (-b) - math.sqrt(discriminant)) / (2 * a)
+        return x_1, x_2
+    elif discriminant == 0:
+        x_1 = (-b) / (2 * a)
+        x_2 = None
+        return x_1, x_2 
+    elif discriminant < 0:
+        x_1 = None
+        x_2 = None
+        return x_1, x_2
+res = quadratic_equation (5, 7, 9)
 print(res)
