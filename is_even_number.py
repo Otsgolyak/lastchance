@@ -1,6 +1,6 @@
-digit = int(input('Введите число: '))
-def is_even_number (digit):
-    result = digit % 2 == 0;
-    return bool(result)
-result_2 = is_even_number(digit)
+number = int(input('Введите число: '))
+def is_even (number):
+    result = number % 2 == 0;
+    return result
+result_2 = is_even(number)
 print(result_2 )

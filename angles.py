@@ -1,9 +1,9 @@
 import math
 ver = int(input("Введите значение угла: "))
-def angles_to_radians (angle):
+def degrees_2_radians (angle):
    cosinus_from_angle =  math.cos((angle * math.pi) / 180)
    return cosinus_from_angle
-print(angles_to_radians(ver))
+print(degrees_2_radians(ver))
 # angle = float(input('Введите значение угла: '))
 # radians = math.radians(angle)                                    #####(angle * math.pi) / 180
 # cos_of_radians = math.cos(radians)
