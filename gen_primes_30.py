@@ -1,5 +1,5 @@
 
-def test(n):
+def gen_primes(n):
     num = []
     for i in range(2, n+1):
         for j in num:
@@ -9,4 +9,4 @@ def test(n):
             num.append(i)  
       
     return num
-print(test(100))
+print(gen_primes(100))

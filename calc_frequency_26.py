@@ -18,8 +18,7 @@ def calc_frequency(lst):
             b = b+1
         elif n == 1:
             c = c+1
-#     return a, b, c 
-# def test(a,b,c):       
+  
     if a>b and a>c:
             return a
     if b>a and b>c:

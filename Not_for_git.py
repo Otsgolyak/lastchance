@@ -157,8 +157,9 @@ if 4 not in test:
  
 #print(calc_interception(*data))
 
+import random
 
-
-
-words = list(range(a-z))
-print(words)
+text = 'abracadabra'
+text = list(text)
+random.shuffle(text)
+print(text)

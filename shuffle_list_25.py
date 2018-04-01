@@ -1,13 +1,12 @@
 import random
 
 spisok = []
-for i in range(100):
-    if i % 2 != 0:
-        spisok.append(i)
+for num in range(100):
+    if num % 2 != 0:
+        spisok.append(num)
 print(spisok)                  
-def lol(spisok):
+def shuffle_list(spisok):
     empty_list = []
-    count = len(spisok)
     scetchik = 0
     while len(empty_list) != len(spisok):
         for item in spisok:
@@ -23,4 +22,4 @@ def lol(spisok):
     #     rand_index = random.randint(0, len(empty_list)) 
     #     empty_list.insert((rand_index), item)
     #     return empty_list
-print(lol(spisok))
+print(shuffle_list(spisok))
