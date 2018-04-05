@@ -27,7 +27,7 @@ def calc_frequency(lst):
         return c
     else:
         return None
-                        #a, b, c
+                        
 print(calc_frequency(lst))
 
 

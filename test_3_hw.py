@@ -1,0 +1,5 @@
+a = int(input('Введите а: '))
+b = int(input('Введите b: '))
+c = int(input('Введите c: '))
+result = (a * b + 4) / (c - 1)
+print(result)
