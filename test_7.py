@@ -1,6 +1,10 @@
+
 num = int(input("Значение какого элемента ряда Фибоначчи вы хотите узнать? "))
-def fib(num):
-    if num==1 or num==2:
-        return 1
-    return fib(num-1) + fib(num-2)
-print(fib(num))
+def fibo(num):
+    fib = [0, 1]
+    for i in range(2, num +1 ):
+        fib.append(fib[i-1] + fib[i-2])
+    print(fib)
+    return sum(fib)
+        
+print(fibo(num))
