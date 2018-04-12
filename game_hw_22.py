@@ -1,17 +1,17 @@
 import random
-def if_less ():
+def print_less ():
     print('|*********************|')
     print('|Заданное число меньше|')
     print('|*********************|')
-def if_more ():
+def print_more ():
     print('|*********************|')
     print('|Заданное число больше|')
     print('|*********************|')    
 def who_is_winner (user_choice, computer_choice):
     if user_choice > computer_choice:
-        if_less()
+        print_less()
     if user_choice < computer_choice:
-        if_more()    
+        print_more()    
 def delimiter ():
     print('|*********************|')
     print('|*********************|')
