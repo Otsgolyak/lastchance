@@ -1,11 +1,11 @@
 import random
-lst = []
-for i in range(11):
-    i = random.randint(-1, 1)
-    lst.append(i)
-print(lst)
-def calc_frequency(lst):
-    
+
+def calc_frequency():
+    lst = []
+    for i in range(11):
+        i = random.randint(-1, 1)
+        lst.append(i)
+    print(lst)
     a = 0
     b = 0
     c = 0
@@ -25,9 +25,8 @@ def calc_frequency(lst):
             return b
     if c>a and c>b:
         return c
-    else:
-        return None
+  
                         
-print(calc_frequency(lst))
+print(calc_frequency())
 
 
