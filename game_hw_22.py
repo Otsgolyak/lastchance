@@ -32,5 +32,4 @@ def game ():
              else: 
                 who_is_winner(user_choice, computer_choice)
 
-
 game()
