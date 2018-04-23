@@ -1,26 +1,26 @@
 import random
 
 
-spisok = []
+lst = []
 for num in range(100):
     if num % 2 != 0:
-        spisok.append(num)
-print(spisok)                  
-def shuffle_list(spisok):
+        lst.append(num)
+print(lst)                  
+def shuffle_list(lst):
     empty_list = []
-    scetchik = 0
-    while len(empty_list) != len(spisok):
-        for item in spisok:
-            item = random.choice(spisok)
+    count = 0
+    while len(empty_list) != len(lst):
+        for item in lst:
+            item = random.choice(lst)
             if item not in empty_list:
                 empty_list.append(item)
-                scetchik += 1
+                count += 1
     return empty_list
 
            
         
-    # for item in spisok:
+    # for item in lst:
     #     rand_index = random.randint(0, len(empty_list)) 
     #     empty_list.insert((rand_index), item)
     #     return empty_list
-print(shuffle_list(spisok))
+print(shuffle_list(lst))

@@ -16,9 +16,7 @@ def group_by_surname(lst_of_students):
     print(lst_2)
     for i in range(len(lst_2)):
         first_letter = lst_2[i][1][0]
-
-        print('!!!!!', first_letter)
-
+        
         if first_letter>='A' and first_letter<='D':
             group_A_B_C_D.append(lst_of_students[i])
         if first_letter>='E' and first_letter<='H':
@@ -38,4 +36,4 @@ def group_by_surname(lst_of_students):
     print(group_Q_R_S_T, len(group_Q_R_S_T))
     print(group_U_V_W_X_Y_Z, len(group_U_V_W_X_Y_Z))     
 group_by_surname(lst_of_students)
-print(len(lst_of_students))
+print('Total count of students: ', len(lst_of_students))
